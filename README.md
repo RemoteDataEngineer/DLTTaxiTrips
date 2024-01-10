@@ -1,11 +1,11 @@
 # DLTTaxiTrips
 Crate Delta Live Tables in AWS using Taxi Datasets in Databricks
 
-#Bronze
+# Bronze
 Read in Yellow and Green Taxi data from Databricks datasets
 
-#Silver
+# Silver
 Run exceptions from a dataframe to clean Silver dataset for Yellow and Green
 
-#Gold
+# Gold
 Union Yellow and Green. Create a Live Streaming SCD table for VendorID
